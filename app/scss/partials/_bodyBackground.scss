@@ -1,0 +1,27 @@
+.bg-line{
+	z-index: -2;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #afb6d0;
+    transform: rotate(-45deg);
+}
+
+.bg-login,.bg-title{
+	color: #afb6d0;
+	position: relative;
+}
+
+.bg-login{
+	left: -200px;
+
+	span{
+		font-size: 30px;
+	}
+}
+
+.bg-title{
+	top: 200px;
+	left: -200px;
+	transform: rotate(-90deg);
+}

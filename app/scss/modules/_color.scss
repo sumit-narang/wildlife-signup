@@ -1,0 +1,28 @@
+$bg-color: #2f7dc8;
+$upper-bgColor: #1f1f1f;
+$lower-bgColor: #2f7dc8;
+
+body{
+	background: $bg-color;
+}
+
+.upper{
+	background: $upper-bgColor;
+
+	h6,p{
+		color: #d2d2d2;
+		text-align: center;
+	}
+	h6{
+		font-size: 20px;
+		margin: 10px 0px;
+	}
+	p{
+		font-size: 14px;
+		margin: 0 10px;
+	}
+}
+
+.lower{
+	background: $lower-bgColor;
+}
